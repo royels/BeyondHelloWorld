@@ -1,4 +1,4 @@
-#README:
+
 
 A selected number of challenges from https://github.com/karan/Projects-my. Just trying to get familiarity with syntax out of the way so I can focus on the things that really matter - A Rosetta stone, if you will.
 
