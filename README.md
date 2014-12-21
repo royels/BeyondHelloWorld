@@ -1,6 +1,6 @@
 
 
-A selected number of challenges from https://github.com/karan/Projects-my. Just trying to get familiarity with syntax out of the way so I can focus on the things that really matter - A Rosetta stone, if you will.
+A selected number of challenges from https://github.com/karan/Projects-my. Just trying to get familiarity with syntax out of the way so I can focus on the things that really matter. Most of the folder/languages here should have some variant of the tasks listed below and work fully, but no guarantees. If you see something I did wrong, or have a neater way of doing it, pull requests are nice! :)
 
 
 
