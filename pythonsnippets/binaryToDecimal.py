@@ -28,10 +28,13 @@ class Converter(object):
 
     binaryString = str(binary)
     decimal = 0
+    index = len(binaryString)
     for char in binaryString:
-      
+	if(char == '1'):
+		sum += 2**index
+	index -= 1
 
 if __name__ == '__main__':
   conv = Converter()
-  conv.decimalToBinary(123)
-  conv.binaryToDecimal(01111011)
+  print conv.decimalToBinary(123)
+  print conv.binaryToDecimal(01111011)

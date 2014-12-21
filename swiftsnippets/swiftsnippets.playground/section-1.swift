@@ -3,43 +3,55 @@
 import UIKit
 import Foundation
 
-class Converter
+func decimalToBinary(decimal: Int) -> String
 {
-    func decimalToBinary(decimal: Int) -> String
+    var counter = 0
+    var numstring = ""
+    while true
     {
-        var counter = 0
-        var numstring = ""
-        while true
+        var sum = Int(pow(Double(2), Double(counter)))
+        if decimal < sum
         {
-            var sum = Int(pow(Double(2), Double(counter)))
-            if decimal < sum
-            {
-                break
-            }
-            counter += 1
+            break
         }
-        
-        return decimalToBinaryHelper(decimal, counter: counter, numstring: numstring)
+        counter += 1
     }
-    
-    
-    func decimalToBinaryHelper(decimal: Int, counter: Int, numstring: String) -> String
+    return decimalToBinaryHelper(decimal, counter, "")
+
+}
+
+
+func decimalToBinaryHelper(decimal: Int, counter: Int, numstring: String) -> String
+{
+    var numstring = numstring
+    var decimal = decimal
+    var counter = counter
+    if counter == -1
     {
-        if counter == -1
+        return numstring
+    }
+    else
+    {
+        var sum = Int(pow(Double(2), Double(counter)))
+        if sum <= decimal
         {
-            return numstring
+            println(numstring)
+            numstring = numstring + "1"
+            decimal -= sum
+            counter -= 1
+            println(decimal)
+            println(counter)
+            println(numstring)
+            return decimalToBinaryHelper(decimal, counter, numstring)
         }
         else
         {
-            var sum = Int(pow(Double(2), Double(counter)))
-            if sum <= decimal
-            {
-                let numstring = numstring + "1"
-                let decimal = decimal - sum
-                --counter;
-                return decimalToBinaryHelper(decimal, counter, numstring)
-            }
+            numstring = numstring + "0"
+            counter -= 1
+            return decimalToBinaryHelper(decimal, counter, numstring)
         }
     }
-
+    
 }
+println (decimalToBinary(2343))
+
