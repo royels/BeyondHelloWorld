@@ -1,11 +1,18 @@
-// Playground - noun: a place where people can play
+//
+//  binaryToDecimal.swift
+//  swiftsnippets
+//
+//  Created by Rohan Yelsangikar on 12/21/14.
+//  Copyright (c) 2014 Royels. All rights reserved.
+//
+
 
 import UIKit
 import Foundation
 
 func decimalToBinary(decimal: Int) -> String
 {
-    var counter = 0
+    var counter = 0 // var implies variable, let is basically final.
     var numstring = ""
     while true
     {
@@ -17,14 +24,14 @@ func decimalToBinary(decimal: Int) -> String
         counter += 1
     }
     return decimalToBinaryHelper(decimal, counter, "")
-
+    
 }
 
 
 func decimalToBinaryHelper(decimal: Int, counter: Int, numstring: String) -> String
 {
     var numstring = numstring
-    var decimal = decimal
+    var decimal = decimal // I am almost certain this was unnecessary, but yay for first time language declarations.
     var counter = counter
     if counter == -1
     {
@@ -51,7 +58,4 @@ func decimalToBinaryHelper(decimal: Int, counter: Int, numstring: String) -> Str
             return decimalToBinaryHelper(decimal, counter, numstring)
         }
     }
-    
 }
-println (decimalToBinary(2343))
-
