@@ -9,9 +9,13 @@
 import Foundation
 
     
-func fibo(inout limit: Int) -> [Int]
+func fibo(limit: Int) -> [Int]
 {
     var element = [0,1]
-    for num in 2...
+    for num in 2...limit - 1
+    {
+        element.append(element[element.count - 1] + element[element.count - 2])
+    }
+    return element
     
 }
