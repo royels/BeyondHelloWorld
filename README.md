@@ -3,8 +3,6 @@
 A selected number of challenges from https://github.com/karan/Projects-my. Just trying to get familiarity with syntax out of the way so I can focus on the things that really matter. Most of the folder/languages here should have some variant of the tasks listed below and work fully, but no guarantees. If you see something I did wrong, or have a neater way of doing it, pull requests are nice! :)
 
 
-
-
 Numbers
 ---------
 
@@ -81,3 +79,5 @@ Web
 Databases
 ---------
 **Budget Tracker** - Write an application that keeps track of a household’s budget. The user can add expenses, income, and recurring costs to find out how much they are saving or losing over a period of time. *Optional: Allow the user to specify a date range and see the net flow of money in and out of the house budget for that time period.*
+
+I am fully cognizant of the fact what is enclosed is probably terribly written code, but the main point of this repository (for me at least) is to get into the mindset of "commit everyday." When I feel worse about missing a meaningful commit than missing a meal, I will be content.
