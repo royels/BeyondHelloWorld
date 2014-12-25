@@ -25,6 +25,5 @@ extension Double // an extension
     func formatting(item: String) -> String
     {
         return NSString(format: "%\(item)f", self)
-    }
-    
+    }sdfsdfsdfsdfsdfsdfd
 }
