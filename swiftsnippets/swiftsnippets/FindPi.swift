@@ -9,10 +9,22 @@
 import Foundation
 
 
-func piFull(places: Int) -> Float
+func piFull(places: Int) -> String
 {
-    let format = "."
-    
-    
+    if places > 200000
+    {
+        let places = 200000
+    }
+  
+    let piFul = M_PI
+    return piFul.formatting("." + String(places))
+}
+
+extension Double // an extension
+{
+    func formatting(item: String) -> String
+    {
+        return NSString(format: "%\(item)f", self)
+    }
     
 }
