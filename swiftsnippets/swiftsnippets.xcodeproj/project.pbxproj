@@ -17,6 +17,7 @@
 		4C4C2D9A1A4790BE0030C13F /* Collatz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C2D991A4790BE0030C13F /* Collatz.swift */; };
 		4C4C2D9C1A479CE90030C13F /* ChangeReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C2D9B1A479CE90030C13F /* ChangeReturn.swift */; };
 		4C6E730A1A477545009DF8DE /* converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E73091A477545009DF8DE /* converter.swift */; };
+		4CDBC3E91A4E42960051198B /* WordCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBC3E81A4E42960051198B /* WordCounter.swift */; };
 		4CE6B1601A494D5D004D0B45 /* FactorialFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6B15F1A494D5D004D0B45 /* FactorialFinder.swift */; };
 		4CE6B1621A4AA4CD004D0B45 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6B1611A4AA4CD004D0B45 /* Fibonacci.swift */; };
 		4CE6B1661A4BC6DF004D0B45 /* Mergesort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6B1651A4BC6DF004D0B45 /* Mergesort.swift */; };
@@ -48,6 +49,7 @@
 		4C4C2D991A4790BE0030C13F /* Collatz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collatz.swift; sourceTree = "<group>"; };
 		4C4C2D9B1A479CE90030C13F /* ChangeReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeReturn.swift; sourceTree = "<group>"; };
 		4C6E73091A477545009DF8DE /* converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = converter.swift; sourceTree = "<group>"; };
+		4CDBC3E81A4E42960051198B /* WordCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCounter.swift; sourceTree = "<group>"; };
 		4CE6B15F1A494D5D004D0B45 /* FactorialFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactorialFinder.swift; sourceTree = "<group>"; };
 		4CE6B1611A4AA4CD004D0B45 /* Fibonacci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		4CE6B1651A4BC6DF004D0B45 /* Mergesort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mergesort.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				4C4C2D9B1A479CE90030C13F /* ChangeReturn.swift */,
 				4CE6B1671A4CBF3E004D0B45 /* FindPi.swift */,
 				4CE6B1651A4BC6DF004D0B45 /* Mergesort.swift */,
+				4CDBC3E81A4E42960051198B /* WordCounter.swift */,
 				4CE6B15F1A494D5D004D0B45 /* FactorialFinder.swift */,
 				4CE6B1611A4AA4CD004D0B45 /* Fibonacci.swift */,
 				4C6E73091A477545009DF8DE /* converter.swift */,
@@ -238,6 +241,7 @@
 			files = (
 				4CE6B1621A4AA4CD004D0B45 /* Fibonacci.swift in Sources */,
 				4C1726B61A46D5670011CD0A /* ViewController.swift in Sources */,
+				4CDBC3E91A4E42960051198B /* WordCounter.swift in Sources */,
 				4C4C2D9C1A479CE90030C13F /* ChangeReturn.swift in Sources */,
 				4CE6B1681A4CBF3E004D0B45 /* FindPi.swift in Sources */,
 				4C4C2D9A1A4790BE0030C13F /* Collatz.swift in Sources */,
