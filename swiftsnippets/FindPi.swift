@@ -20,7 +20,7 @@ func piFull(places: Int) -> String
     return piFul.formatting("." + String(places))
 }
 
-extension Double // an extension
+extension Double // an extension adds functionality to an existing class, such as the following example.
 {
     func formatting(item: String) -> String
     {
