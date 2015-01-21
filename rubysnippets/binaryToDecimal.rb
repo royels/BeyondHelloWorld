@@ -1,12 +1,7 @@
 class Converter
-
-  def initialize()
-    puts "This worked!"
-  end
-
   def decimalToBinary(decimal)
     counter = 0
-    while True
+    while true
       if decimal < 2**counter
         break
       end
@@ -34,17 +29,21 @@ class Converter
   end
 
   def binaryToDecimal(binary)
-    binaryString = str(binary)
-    decimal = 0
-    index = len(binaryString)
-      for char in binaryString
-  	     if(char == '1')
-  		       sum += 2**index
-         end
-  	     index -= 1
-      end
+    binaryStringArray = binary.to_s.chars.to_a
+    index = binaryStringArray.length
+    sum = 0
+    for chary in binaryStringArray
+       index -= 1
+	     if(chary == "1")
+		       sum += 2**index
+       end
+    end
+    return sum
   end
+
 end
+
+
 conv = Converter.new()
-puts conv.decimalToBinary(123)
-puts conv.binaryToDecimal(01111011)
+puts conv.decimalToBinary(1111)
+puts conv.binaryToDecimal(1010101111) #is octal, so will be different from 1111
