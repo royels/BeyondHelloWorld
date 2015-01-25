@@ -1,11 +1,6 @@
-def nextPrime()
-    prime = 1
+def nextPrime(current_prime)
+    prime = current_prime
     while true
-        print 'The current prime number is ', prime
-        choice = gets.chomp
-        if choice == 'N':
-            break
-        end
         while true
             mult = []
             prime += 1
@@ -15,6 +10,7 @@ def nextPrime()
                     mult << yupl
                 end
             if(mult.length) <= 2
+                return prime
                 break
             end
         end
