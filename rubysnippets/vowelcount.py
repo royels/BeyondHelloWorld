@@ -1,6 +1,6 @@
 from collections import defaultdict as f
 
-word = raw_input("Give me strings and I'll give you vowels    :  ").lower()
+word = raw_input("Give me a string   :  ").lower()
 cont = f(int)
 vowel = ['a', 'e', 'i', 'o','u']
 

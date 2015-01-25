@@ -14,6 +14,6 @@ def reverse2(string):
 
 
 if __name__ == "__main__":
-    param = raw_input("Shakespeare, my good friend, give me one of your strings. :  ")
+    param = raw_input("Enter some text :  ")
     print reversing(param)
     print reverse2(param)
