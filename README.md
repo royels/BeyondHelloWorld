@@ -1,3 +1,6 @@
+This is a repository to stash all the beginner code and tutorials I've been walked through on, be it Flask, iOS, Rails, Django, Node etc etc etc. 
+
+
 ![alt tag](https://github.com/royels/BeyondHelloWorld/blob/master/image.png)
 
 
