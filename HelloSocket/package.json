@@ -1,0 +1,11 @@
+{
+  "name": "HelloSocket",
+  "version": "0.0.0",
+  "description": "\"Oh this is pretty neat...also tampering with socket.io\"",
+  "dependencies": {
+    "express": "^4.12.0",
+    "jade": "^1.9.2",
+    "socket.io": "^1.3.4",
+    "stylus": "^0.50.0"
+  }
+}
