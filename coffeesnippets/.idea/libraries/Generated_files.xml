@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/nextPrime.js" />
+        <item url="file://$PROJECT_DIR$/binaryToDecimal.js" />
+        <item url="file://$PROJECT_DIR$/vowelcount.js" />
+        <item url="file://$PROJECT_DIR$/primeFactor.js" />
+        <item url="file://$PROJECT_DIR$/changeReturn.js" />
+        <item url="file://$PROJECT_DIR$/Collatz.js" />
+        <item url="file://$PROJECT_DIR$/palindrome.js" />
+        <item url="file://$PROJECT_DIR$/factorialFinder.js" />
+        <item url="file://$PROJECT_DIR$/Bubblesort.js" />
+        <item url="file://$PROJECT_DIR$/FindPi.js" />
+        <item url="file://$PROJECT_DIR$/fibonacci.js" />
+        <item url="file://$PROJECT_DIR$/wordcounter.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/binaryToDecimal.js" />
+      <root url="file://$PROJECT_DIR$/vowelcount.js" />
+      <root url="file://$PROJECT_DIR$/Collatz.js" />
+      <root url="file://$PROJECT_DIR$/palindrome.js" />
+      <root url="file://$PROJECT_DIR$/factorialFinder.js" />
+      <root url="file://$PROJECT_DIR$/Bubblesort.js" />
+      <root url="file://$PROJECT_DIR$/FindPi.js" />
+      <root url="file://$PROJECT_DIR$/fibonacci.js" />
+      <root url="file://$PROJECT_DIR$/nextPrime.js" />
+      <root url="file://$PROJECT_DIR$/primeFactor.js" />
+      <root url="file://$PROJECT_DIR$/changeReturn.js" />
+      <root url="file://$PROJECT_DIR$/wordcounter.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

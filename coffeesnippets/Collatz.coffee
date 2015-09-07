@@ -1,7 +1,6 @@
-print "Input a number N   :"
-start = gets.chomp.to_i
+start = window.prompt("Start point: ")
 
-def collatz(start, steps)
+collatz: (start, steps) ->
     if start == 1
         return steps
     else
@@ -12,6 +11,4 @@ def collatz(start, steps)
         end
         steps += 1
         collatz(start, steps)
-    end
-end
-puts "\n#{collatz(start, 0)}"
+alert collatz(start, 0)

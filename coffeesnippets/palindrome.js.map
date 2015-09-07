@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "palindrome.js",
+  "sourceRoot": "",
+  "sources": [
+    "palindrome.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,IAAA;;AAAA,EAAA,IAAA,GAAO,MAAM,CAAC,MAAP,CAAc,mBAAd,CAAP,CAAA;;AACA,EAAA,IAAI,IAAI,CAAC,KAAL,CAAW,EAAX,CAAc,CAAC,OAAf,CAAA,CAAwB,CAAC,IAAzB,CAA8B,EAA9B,CAAA,KAAqC,IAAzC;AAAmD,IAAA,KAAA,CAAM,eAAN,CAAA,CAAnD;GAAA,MAAA;AAA+E,IAAA,KAAA,CAAM,gBAAN,CAAA,CAA/E;GADA;AAAA"
+}
